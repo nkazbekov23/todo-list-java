@@ -1,26 +1,23 @@
 package com.javatodo.list.model;
 
-import lombok.Data;
+import javax.persistence.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
 @Entity
-public class Color {
+public class Lists {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String hex;
     private String name;
+    private Integer colorId;
 
-    public Color() {}
 
-    public Color(String hex, String name) {
-        this.hex = hex;
+    public Lists() {}
+
+    public Lists(String name, Integer colorId) {
         this.name = name;
+        this.colorId = colorId;
     }
 
     public Integer getId() {
@@ -31,19 +28,19 @@ public class Color {
         this.id = id;
     }
 
-    public String getHex() {
-        return hex;
-    }
-
-    public void setHex(String hex) {
-        this.hex = hex;
-    }
-
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setColorId(Integer colorId) {
+        this.colorId = colorId;
+    }
+
+    public Integer getColorId() {
+        return colorId;
     }
 }

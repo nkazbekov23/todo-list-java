@@ -1,0 +1,144 @@
+{
+  "lists": [
+    {
+      "id": 2,
+      "name": "Фронтенд",
+      "colorId": 1
+    },
+    {
+      "id": 3,
+      "name": "Фильмы и сериалы",
+      "colorId": 3
+    },
+    {
+      "id": 4,
+      "name": "Покупки",
+      "colorId": 2
+    },
+    {
+      "id": 5,
+      "name": "Книги",
+      "colorId": 4
+    },
+    {
+      "id": 6,
+      "name": "Спорт",
+      "colorId": 6
+    },
+    {
+      "name": "snowboard",
+      "colorId": 5,
+      "id": 7
+    },
+    {
+      "name": "algoritm",
+      "colorId": 4,
+      "id": 8
+    }
+  ],
+  "tasks": [
+    {
+      "listId": 5,
+      "text": "Чынгыз Айтматов",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "listId": 6,
+      "text": "Футбол",
+      "completed": false,
+      "id": 11
+    },
+    {
+      "listId": 3,
+      "text": "Игра Престолов",
+      "completed": false,
+      "id": 12
+    },
+    {
+      "listId": 7,
+      "text": "покататься на борде",
+      "completed": false,
+      "id": 13
+    },
+    {
+      "listId": 6,
+      "text": "hockey",
+      "completed": false,
+      "id": 23
+    },
+    {
+      "listId": 4,
+      "text": "помидоры",
+      "completed": false,
+      "id": 24
+    },
+    {
+      "listId": 4,
+      "text": "огурцы",
+      "completed": false,
+      "id": 25
+    },
+    {
+      "listId": 3,
+      "text": "Саке",
+      "completed": false,
+      "id": 26
+    },
+    {
+      "listId": 8,
+      "text": "buble sorting",
+      "completed": false,
+      "id": 27
+    },
+    {
+      "listId": 2,
+      "text": "React js123",
+      "completed": false,
+      "id": 28
+    },
+    {
+      "listId": 2,
+      "text": "Redux",
+      "completed": false,
+      "id": 29
+    }
+  ],
+  "colors": [
+    {
+      "id": 3,
+      "hex": "#42b883",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42b883",
+      "name": "green"
+    },
+    {
+      "id": 1,
+      "hex": "#42b883",
+      "name": "pink"
+    },
+    {
+      "id": 4,
+      "hex": "#42b883",
+      "name": "purple"
+    },
+    {
+      "id": 5,
+      "hex": "#42b883",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#42b883",
+      "name": "red"
+    },
+    {
+      "id": 7,
+      "hex": "#42b883",
+      "name": "black"
+    }
+  ]
+}
